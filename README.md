@@ -1,16 +1,14 @@
 # Recommenders
 various recommendation system POCs
 
-## Dev Folder
+logs -> used for tensorboard
+mlflow -> used for tracking, model registry, and model serving
 
-### 1. EDA and initial retrieval/ranking models
+### 1. Exploratory Data Analysis
 
-### 2. Matrix Factorization using suprise
+### 2. Train / Test Matrix factorization recommender using suprise
 
+### 3. Train / Test retrieval and ranking based recommender using Tensorflow 
 
-## Prod Folder
-
-### 1. Train/Test retrieval and ranking based recommendation system
-
-### 2. API endpoint example
+### 4. API endpoint example
 
