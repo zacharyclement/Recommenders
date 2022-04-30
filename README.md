@@ -3,11 +3,9 @@ various recommendation system POCs
 
 ## Dev Folder
 
-### 1. EDA
+### 1. EDA and initial retrieval/ranking models
 
 ### 2. Matrix Factorization using suprise
-
-### 3. Retrieval and Ranking Systems - dev process
 
 
 ## Prod Folder
