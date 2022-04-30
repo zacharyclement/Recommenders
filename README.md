@@ -1,14 +1,15 @@
 # Recommenders
 various recommendation system POCs
 
-logs -> used for tensorboard
-mlflow -> used for tracking, model registry, and model serving
+## Folders
 
-### 1. Exploratory Data Analysis
+1. logs -> used for tensorboard
+2. mlflow -> used for tracking, model registry, and model serving
 
-### 2. Train / Test Matrix factorization recommender using suprise
+## Scripts
 
-### 3. Train / Test retrieval and ranking based recommender using Tensorflow 
-
-### 4. API endpoint example
+1. Exploratory Data Analysis
+2. Train / Test Matrix factorization recommender using suprise
+3. Train / Test retrieval and ranking based recommender using Tensorflow 
+4. API endpoint example
 
