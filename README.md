@@ -3,8 +3,8 @@ various recommendation system POCs
 
 ## Folders
 
-1. logs -> used for tensorboard
-2. mlflow -> used for tracking, model registry, and model serving
+1. logs -> created by tensorflow for using tensorboard
+2. mlruns -> created by mlflow for for tracking, model registry, and model serving
 
 ## Scripts
 
