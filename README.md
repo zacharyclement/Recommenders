@@ -21,8 +21,8 @@ various recommendation system POCs
 2. MlFlow ui - To access MlFlow ui, go to the root of this project and run the following command in the terminal:<br/> $ mlflow ui 
 3. Flask - to get api running, go to the root of this project and run: <br/>
 
-$ conda create -n api_env python=3.6
-$ conda activate api_env
-$ pip install tensorflow flask flask-bootstrap requests
+$ conda create -n api_env python=3.6 <br/>
+$ conda activate api_env <br/>
+$ pip install tensorflow flask flask-bootstrap requests <br/>
 $ export FLASK_APP=api <br/>
-$ flask run -h localhost -p 3000
+$ flask run -h localhost -p 3000 <br/>
