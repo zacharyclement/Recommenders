@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zach/Documents/GitHub/Recommenders/mlruns/0/f02389c1b26b418485194b658684e9cd/artifacts
+end_time: 1651355690960
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: f02389c1b26b418485194b658684e9cd
+run_uuid: f02389c1b26b418485194b658684e9cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1651355651948
+status: 4
+tags: []
+user_id: ZCC
