@@ -4,16 +4,19 @@ various recommendation system POCs
 ## Folders
 
 1. logs -> created by tensorflow for using tensorboard. 
-2. mlruns -> created by mlflow for for tracking, model registry, and model serving. 
+2. mlruns -> created by mlflow for for tracking, model registry, and model serving.
+3. retrieval_model -> holds the model artifact
+4. ranking_model -> holds the model artifact 
 
 ## Scripts
 
-1. Exploratory Data Analysis
-2. Train / Test Matrix factorization recommender using suprise
-3. Train / Test retrieval and ranking based recommender using Tensorflow 
-4. API endpoint example
+1_EDA -> exploratory data analysis on raw data
+<br>2_create_feature_datasets  -> builds csv files for data with features
+<br>3_matrix_factorization_svd -> implementation with train/test of matrix factorization with singular value decomposition using suprise library
+<br />4_retrieval_ranking -> train/test a retrieval and ranking based recommender using Tensorflow 
+<br />5_api -> an basic api endpoint using flask app
 
 ## Helper Apps
-1. tensorboard - to access tensorboard, go to the root of the project and run the following command in the terminal:  tensorboard --logdir logs/fit
-2. MlFlow ui - To access MlFlow ui, go to the root of project and run the following command in the terminal: mlflow ui 
-
+1. tensorboard - to access tensorboard, go to the root of this project and run the following command in the terminal:  tensorboard --logdir logs/fit
+2. MlFlow ui - To access MlFlow ui, go to the root of this project and run the following command in the terminal: mlflow ui 
+3. Flask - to get api running, go to the root of this project and run ...
