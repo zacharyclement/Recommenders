@@ -20,7 +20,7 @@ various recommendation system POCs
 1. tensorboard - to access tensorboard, go to the root of this project and run the following command in the terminal:<br/>  $ tensorboard --logdir logs/fit
 2. MlFlow ui - To access MlFlow ui, go to the root of this project and run the following command in the terminal:<br/> $ mlflow ui 
 3. Flask - to get api running, go to the root of this project and run: <br/>
-$ conda create -n api_env python=3.6 <br/>
+$ conda create -n api_env python=3.7 <br/>
 $ conda activate api_env <br/>
 $ pip install tensorflow flask flask-bootstrap requests <br/>
 $ export FLASK_APP=api <br/>
