@@ -10,11 +10,11 @@ various recommendation system POCs
 
 ## Scripts
 
-1_EDA -> exploratory data analysis on raw data
-<br>2_create_feature_datasets  -> builds csv files for data with features
-<br>3_matrix_factorization_svd -> implementation with train/test of matrix factorization with singular value decomposition using suprise library
-<br />4_retrieval_ranking -> train/test a retrieval and ranking based recommender using Tensorflow 
-<br />5_api -> an basic api endpoint using flask app
+* 1_EDA -> exploratory data analysis on raw data
+* 2_create_feature_datasets  -> builds csv files for data with features
+* 3_matrix_factorization_svd -> implementation with train/test of matrix factorization with singular value decomposition using suprise library
+* 4_retrieval_ranking -> train/test a retrieval and ranking based recommender using Tensorflow 
+* 5_api -> an basic api endpoint using flask app
 
 ## Helper Apps
 1. tensorboard - to access tensorboard, go to the root of this project and run the following command in the terminal:  tensorboard --logdir logs/fit
