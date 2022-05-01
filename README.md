@@ -17,8 +17,8 @@ various recommendation system POCs
 * 5_api -> an basic api endpoint using flask app
 
 ## Helper Apps
-1. tensorboard - to access tensorboard, go to the root of this project and run the following command in the terminal:  $ tensorboard --logdir logs/fit
-2. MlFlow ui - To access MlFlow ui, go to the root of this project and run the following command in the terminal: $ mlflow ui 
+1. tensorboard - to access tensorboard, go to the root of this project and run the following command in the terminal:<br/>  $ tensorboard --logdir logs/fit
+2. MlFlow ui - To access MlFlow ui, go to the root of this project and run the following command in the terminal:<br/> $ mlflow ui 
 3. Flask - to get api running, go to the root of this project and run: <br/>
-$ export FLASK_APP=api
+$ export FLASK_APP=api <br/>
 $ flask run -h localhost -p 3000
