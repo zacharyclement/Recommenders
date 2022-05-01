@@ -9,10 +9,10 @@ various recommendation system POCs
 ## Scripts
 
 1_EDA ->
-2_create_feature_datasets 
-3_matrix_factorization 
-4_retrieval_raning -> train/test a retrieval and ranking based recommender using Tensorflow 
-5_example_API -> an basic api endpoint using flask app
+<br>2_create_feature_datasets 
+<br>3_matrix_factorization 
+<br />4_retrieval_raning -> train/test a retrieval and ranking based recommender using Tensorflow 
+<br />5_example_API -> an basic api endpoint using flask app
 
 ## Helper Apps
 1. tensorboard - to access tensorboard, go to the root of this project and run the following command in the terminal:  tensorboard --logdir logs/fit
