@@ -11,7 +11,7 @@ Key questions to answer include:
 5. What details would you need to know about the app platform, activity patterns, or
 other relevant details of the project to refine your design?
 
-The slide deck can be found here -> [Slide Deck: Recommender System POC](https://docs.google.com/presentation/d/125fHNkl2iV7J0MNec3c1JziTNHdGIiupGeZDp3NKnoo/edit#slide=id.g1228538d07f_0_87)
+The slide deck can be found here -> [Slide Deck: Recommender System POC](https://docs.google.com/presentation/d/125fHNkl2iV7J0MNec3c1JziTNHdGIiupGeZDp3NKnoo/edit#slide=id.p)
 
 To build a recommendation algorithm for this project, I broke apart the EDA, intermediate dataset creation, and training/testing work into different scripts (see the 'scripts' section of read me). Two different modeling approaches were examined: matrix factorization using SVD and a retrieval/ranking implementation using tensorflow/keras. In addition to the algorithm, I built a flask app to serve the model as a basic API. There are also various helper apps to help with model examination and experiement tracking. Details on these are in the 'helper app' section of this read me.
 
