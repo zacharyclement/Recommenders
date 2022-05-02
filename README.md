@@ -23,7 +23,7 @@ $ pip install tensorflow flask flask-bootstrap requests <br/>
 $ export FLASK_APP=api <br/>
 $ flask run -h localhost -p 3000 <br/>
 
-2. once the app is running, go to the 5_use_api notebook and run code there. The input into the api is {'user_id': 'abcd1234'} which returns a order dictionary of {content_1:score, content_2:score} ordered with the highest score and best recommendation first.
+2. once the app is running, go to the 5_use_api notebook to send and recieve data. The input into the api is {'user_id': 'abcd1234'} which returns an orddered dictionary of {content_1:eng_pct, content_2:eng_pct}, ordered with the highest predicted engaged_pct and best recommendation first.
 
 
 ## Scripts
