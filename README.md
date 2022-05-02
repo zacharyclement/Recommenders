@@ -13,10 +13,16 @@ other relevant details of the project to refine your design?
 
 The slide deck can be found here -> [Slide Deck: Recommender System POC](https://docs.google.com/presentation/d/125fHNkl2iV7J0MNec3c1JziTNHdGIiupGeZDp3NKnoo/edit#slide=id.p)
 
-To build a recommendation algorithm for this project, I broke apart the EDA, intermediate dataset creation, and training/testing work into different scripts (see the 'scripts' section of read me). Two different modeling approaches were examined: matrix factorization using SVD and a retrieval/ranking implementation using tensorflow/keras. In addition to the algorithm, I built a flask app to serve the model as a basic API. There are also various helper apps to help with model examination and experiement tracking. Details on these are in the 'helper app' section of this read me.
+To build a recommendation algorithm for this project, I broke apart the EDA, intermediate dataset creation, and training/testing work into different scripts (see the 'scripts' section of read me). Two different modeling approaches were examined: matrix factorization using SVD and a retrieval/ranking implementation using tensorflow/keras. In addition to the algorithm, I built a flask app (api.py script) to serve the model as a basic API. There are also various helper apps to help with model examination and experiement tracking. Details on these are in the 'helper app' section of this read me.
 
 To use the retrieval/ranking model API:
-1. start the flask app (see directions below. if using a virtual environment, package installation takes ~10 minutes) 
+1. start the flask app with the commands below (package installation takes ~10 minutes). Go to the root of this project and run: <br/>
+$ conda create -n api_env python=3.7 <br/>
+$ conda activate api_env <br/>
+$ pip install tensorflow flask flask-bootstrap requests <br/>
+$ export FLASK_APP=api <br/>
+$ flask run -h localhost -p 3000 <br/>
+
 2. once the app is running, go to the 5_use_api notebook and run code there. The input into the api is {'user_id': 'abcd1234'} which returns a order dictionary of {content_1:score, content_2:score} ordered with the highest score and best recommendation first.
 
 
@@ -27,16 +33,11 @@ To use the retrieval/ranking model API:
 * 3_matrix_factorization_svd -> implementation with train/test of matrix factorization with singular value decomposition using suprise library
 * 4_retrieval_ranking -> train/test a retrieval and ranking based recommender using Tensorflow 
 * 5_use_api -> an basic api endpoint using flask app
+* api.py -> holds flask app logic
 
 ## Helper Apps
 1. tensorboard - to access tensorboard, go to the root of this project and run the following command in the terminal:<br/>  $ tensorboard --logdir logs/fit
-2. MlFlow ui - To access MlFlow ui, go to the root of this project and run the following command in the terminal:<br/> $ mlflow ui 
-3. Flask - to get api running, go to the root of this project and run: <br/>
-$ conda create -n api_env python=3.7 <br/>
-$ conda activate api_env <br/>
-$ pip install tensorflow flask flask-bootstrap requests <br/>
-$ export FLASK_APP=api <br/>
-$ flask run -h localhost -p 3000 <br/>
+2. MlFlow ui - To access MlFlow ui, go to the root of this project and run the following command in the terminal:<br/> $ mlflow ui  
 
 ## Folders
 
