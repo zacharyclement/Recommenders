@@ -47,4 +47,4 @@ $ flask run -h localhost -p 3000 <br/>
 
 
 ## Note
-I’m not a “solve everything with deep learning” person. Generally I thin its important to balance performance with complexity - often deep learning introduces significant complexity without much additional performance. But recommenders seems to be an area - like computer vision - that neural nets perform much better. Because of this, I wanted to demonstrate some of the innovation in this area and show what is possible. 
+I’m not a “solve everything with deep learning” person. Generally I think its important to balance performance with complexity - often deep learning introduces significant complexity without much additional performance. But recommenders seems to be an area - like computer vision - that neural nets perform much better. Because of this, I wanted to demonstrate some of the innovation in this area and show what is possible. 
