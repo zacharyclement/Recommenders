@@ -1,7 +1,7 @@
 # Recommenders
-To use the recommendation system built for this project:
+The recommender built for this project is a retrieval/ranking model. To use it:
 1. start the flask app (see directions below. if using a virtual environment, package installation takes 10-15 minutes) 
-2. once the app is running, go to the 5_use_api notebook and run code there.
+2. once the app is running, go to the 5_use_api notebook and run code there. The input into the api is {'user_id': 'abcd1234'} which returns a order dictionary of {content_1:score, content_2:score} ordered with the highest score and best recommendation first.
 
 Besides the working api, there are various script for eda, feature engineering, and modeling. Details are provided in the script section
 
